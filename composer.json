@@ -1,0 +1,20 @@
+{
+  "name": "taurus-media/module-emojis",
+  "version": "1.0.0",
+  "description": "this module saves emojis to the database.",
+  "type": "magento2-module",
+  "require": {
+    "magento/framework": "*"
+  },
+  "license": [
+    "Proprietary"
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "TaurusMedia\\Emojis\\": ""
+    }
+  }
+}
